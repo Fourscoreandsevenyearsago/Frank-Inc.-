@@ -1,0 +1,757 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.red {
+    
+      
+        font-size: 52px;
+       
+      
+    color: red;
+}
+.title {
+    position: absolute; 
+    top: 130px;
+    left: 65px;
+    font-size: 35px;
+}
+header {
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    text-align: center;
+    display: inline-block;
+    position: fixed;
+    z-index: 5;
+}
+.franklogo {
+    position: absolute; 
+    height: 85px;
+    top: 3px;
+    left: 10px;
+}
+.line {
+    rotate: 90deg;
+    position: absolute; 
+    height: 30px;
+    top: 30px;
+    left: 90px;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.home a:hover {color: rgb(227, 227, 227);}
+.home {
+    position: absolute; 
+    z-index: 9;
+    color:  rgb(180, 180, 180);
+    top: 28px;
+    left: 200px;
+    position: fixed;
+}
+.dropbtn {
+    background-color: #000000;
+    color:  rgb(180, 180, 180);
+    position: fixed;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  .dropdown {
+    position: absolute;
+    display: inline-block;
+    top: 26px;
+    z-index: 10;
+    left: 420px;
+    position: fixed;
+    
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 38px;
+    
+  }
+  
+ 
+  .dropdown-content a {
+    color: rgb(180, 180, 180);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+ 
+  .dropdown-content a:hover {background-color: rgb(48, 48, 48)}
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  
+  .dropdown:hover .dropbtn {
+    color: rgb(227, 227, 227);
+  }
+  .merchandise {
+    position: absolute; 
+    z-index: 9;
+    color:  rgb(180, 180, 180);
+    top: 28px;
+    left: 670px;
+    position: fixed;
+}
+.merchandise a:hover {color: rgb(227, 227, 227);}
+.info {
+    position: absolute; 
+    z-index: 9;
+    color:  rgb(180, 180, 180);
+    top: 28px;
+    left: 1000px;
+    position: fixed;
+}
+.info a:hover {color: rgb(227, 227, 227);}
+.support {
+    position: absolute; 
+    z-index: 9;
+    color:  rgb(180, 180, 180);
+    top: 26px;
+    left: 1220px;
+    position: fixed;
+}
+.support a:hover {color: rgb(227, 227, 227);}
+.writtenby {
+    position: absolute; 
+    top: 255px;
+    left: 67px;
+    font-size: 15px;
+}
+.gabriel {
+    position: absolute; 
+    top: 280px;
+    left: 69px;
+    font-size: 20px;
+}
+.hippo {
+    position: absolute; 
+    top: 340px;
+    left: 65px;
+    height: 450px;
+}
+.italics {
+    position: absolute; 
+    top: 800px;
+    left: 370px;
+}
+.rules {
+    position: absolute;
+    top: 850px;
+left: 65px;
+    font-weight: 900;
+}
+.rulestext{
+    position: absolute; 
+    top: 900px;
+    left: 65px;
+    font-size: 20px;;
+}
+.goldfishtitle {
+    position: absolute; 
+    top: 1210px;
+    left: 65px;
+    font-size: 35px;
+    color: rgb(233, 0, 0);
+}
+.goldfish {
+    position: absolute; 
+    top: 1275px;
+    left: 755px;
+    width: 625px;
+     height: 400px; 
+     object-fit: cover;
+}
+.giantsnailtitle {
+    position: absolute; 
+    top: 2260px;
+    left: 65px;
+    font-size: 35px;
+    color: rgb(233, 0, 0);
+}
+.goldfishtext {
+    position: absolute;
+    top: 1280px;
+    left: 65px;
+    font-size: 18px;
+}
+.goldgoldgold {
+    color: red;
+    font-family: 'archivo black', sans-serif;
+    top: 1445px;
+    left: 75px;
+    position: absolute;
+    font-size: 25px;
+}
+.angryfishes {
+    position: absolute;
+    top: 1725px;
+    left: 65px;
+    width: 625px;
+     height: 400px; 
+     object-fit: cover;
+}
+.goldfishtext2 {
+    position: absolute;
+    top: 1780px;
+    left: 735px;
+    font-size: 18px;
+}
+.eeeee {
+    color: red;
+    font-family: 'archivo black', sans-serif;
+    top: 1735px;
+    left: 740px;
+    position: absolute;
+    font-size: 25px;
+}
+.winrategold {
+    color: rgb(0, 0, 0);
+    font-family: 'archivo black', sans-serif;
+    top: 2185px;
+    left: 70px;
+    position: absolute;
+    font-size: 30px;
+}
+.snailimage {
+    position: absolute;
+    top: 2335px;
+    left: 65px;
+    width: 635px;
+     height: 485px; 
+     object-fit: cover;
+}
+.snailtext {
+    position: absolute; 
+    top: 2335px;
+    left: 735px;
+    font-size: 18px;
+}
+.snailsnailsnail {
+    color: red;
+    font-family: 'archivo black', sans-serif;
+    top: 2545px;
+    left: 740px;
+    position: absolute;
+    font-size: 25px;
+}
+.snailtext2 {
+    position: absolute; 
+    top: 2920px;
+    left: 70px;
+    font-size: 18px;
+}
+.snailsnailsnail2 {
+    color: red;
+    font-family: 'archivo black', sans-serif;
+    top: 2870px;
+    left: 75px;
+    position: absolute;
+    font-size: 25px;
+}
+.snailimg {
+    position: absolute;
+    top: 2865px;
+    left: 775px;
+    width: 635px;
+     height: 425px; 
+     object-fit: cover;
+}
+.winratesnail {
+    color: rgb(0, 0, 0);
+    font-family: 'archivo black', sans-serif;
+    top: 3350px;
+    left: 70px;
+    position: absolute;
+    font-size: 30px;
+}
+.slothimage {
+    position: absolute;
+    top: 3490px;
+    left: 65px;
+    width: 635px;
+     height: 350px; 
+     object-fit: cover;
+}
+.slothtitle {
+    position: absolute; 
+    top: 3420px;
+    left: 65px;
+    font-size: 35px;
+    color: rgb(233, 0, 0);
+}
+.slothtext {
+    position: absolute; 
+    top: 3495px;
+    left: 735px;
+    font-size: 18px;
+}
+.slothslothsloth {
+    color: red;
+    font-family: 'archivo black', sans-serif;
+    top: 3660px;
+    left: 740px;
+    position: absolute;
+    font-size: 25px;
+}
+.slothimg {
+    position: absolute;
+    top: 3885px;
+    left: 775px;
+    width: 635px;
+     height: 405px; 
+     object-fit: cover;
+}
+.slothslothsloth2 {
+    color: red;
+    font-family: 'archivo black', sans-serif;
+    top: 3895px;
+    left: 70px;
+    position: absolute;
+    font-size: 25px;
+}
+.slothtext2 {
+    position: absolute; 
+    top: 3945px;
+    left: 65px;
+    font-size: 18px;
+}
+.slothwinrate {
+    color: rgb(0, 0, 0);
+    font-family: 'archivo black', sans-serif;
+    top: 4350px;
+    left: 70px;
+    position: absolute;
+    font-size: 30px;
+
+}
+.raccoontitle {
+    position: absolute; 
+    top: 4420px;
+    left: 65px;
+    font-size: 35px;
+    color: rgb(233, 0, 0);
+}
+.raccoonimage {
+    position: absolute;
+    top: 4485px;
+    left: 770px;
+    width: 635px;
+     height: 330px; 
+     object-fit: cover;
+}
+.raccoontext {
+    position: absolute; 
+    top: 4495px;
+    left: 65px;
+    font-size: 18px;
+}
+.raccoonraccoonraccoon {
+    color: red;
+    font-family: 'archivo black', sans-serif;
+    top: 4615px;
+    left: 70px;
+    position: absolute;
+    font-size: 25px;
+}
+.raccoonimg {
+    position: absolute;
+    top: 4870px;
+    left: 65px;
+    width: 635px;
+     height: 385px; 
+     object-fit: cover;
+}
+.raccoonraccoonraccoon2 {
+    color: red;
+    font-family: 'archivo black', sans-serif;
+    top: 4895px;
+    left: 745px;
+    position: absolute;
+    font-size: 25px;
+}
+.raccoontext2 {
+    position: absolute; 
+    top: 4945px;
+    left: 745px;
+    font-size: 18px;
+}
+.raccoonwinrate {
+    color: rgb(0, 0, 0);
+    font-family: 'archivo black', sans-serif;
+    top: 5280px;
+    left: 70px;
+    position: absolute;
+    font-size: 30px;
+
+}
+.spidertitle {
+    position: absolute; 
+    top: 5345px;
+    left: 65px;
+    font-size: 35px;
+    color: rgb(233, 0, 0);
+}
+.spiderimage {
+    position: absolute;
+    top: 5425px;
+    left: 65px;
+    width: 655px;
+     height: 375px; 
+     object-fit: cover;
+}
+.spidertext {
+    position: absolute; 
+    top: 5430px;
+    left: 760px;
+    font-size: 18px;
+}
+.spiderspiderspider{
+    color: red;
+    font-family: 'archivo black', sans-serif;
+    top: 5600px;
+    left: 765px;
+    position: absolute;
+    font-size: 25px;
+}
+.spiderimg {
+    position: absolute;
+    top: 5830px;
+    left: 715px;
+    width: 685px;
+     height: 395px; 
+     object-fit: cover;
+}
+.spiderspiderspider2 {
+    color: red;
+    font-family: 'archivo black', sans-serif;
+    top: 5870px;
+    left: 70px;
+    position: absolute;
+    font-size: 25px;
+}
+.spidertext2 {
+    position: absolute; 
+    top: 5920px;
+    left: 65px;
+    font-size: 18px;
+}
+.spiderwinrate {
+    color: rgb(0, 0, 0);
+    font-family: 'archivo black', sans-serif;
+    top: 6240px;
+    left: 70px;
+    position: absolute;
+    font-size: 30px;
+
+}
+.monkeytitle {
+    position: absolute; 
+    top: 6300px;
+    left: 65px;
+    font-size: 35px;
+    color: rgb(233, 0, 0);
+}
+.monkeyimage {
+    position: absolute;
+    top: 6375px;
+    left: 745px;
+    width: 655px;
+     height: 470px; 
+     object-fit: cover;
+}
+.monkeytext {
+    position: absolute; 
+    top: 6382px;
+    left: 65px;
+    font-size: 18px;
+}
+.monkeymonkeymonkey {
+    color: red;
+    font-family: 'archivo black', sans-serif;
+    top: 6620px;
+    left: 70px;
+    position: absolute;
+    font-size: 25px;
+}
+.monkeyimg {
+    position: absolute;
+    top: 6900px;
+    left: 65px;
+    width: 650px;
+     height: 385px; 
+     object-fit: cover;
+}
+.monkeymonkeymonkey2 {
+    color: red;
+    font-family: 'archivo black', sans-serif;
+    top: 6900px;
+    left: 765px;
+    position: absolute;
+    font-size: 25px;
+}
+.monkeytext2 {
+    position: absolute; 
+    top: 6950px;
+    left: 765px;
+    font-size: 18px;
+}
+.monkeywinrate {
+    color: rgb(0, 0, 0);
+    font-family: 'archivo black', sans-serif;
+    top: 7320px;
+    left: 70px;
+    position: absolute;
+    font-size: 30px;
+
+}
+.anglertitle {
+    position: absolute; 
+    top: 7380px;
+    left: 65px;
+    font-size: 35px;
+    color: rgb(233, 0, 0);
+}
+.anglerimage {
+    position: absolute;
+    top: 7460px;
+    left: 65px;
+    width: 650px;
+     height: 385px; 
+     object-fit: cover;
+     transform: scaleX(-1);
+}
+.anglertext {
+    position: absolute; 
+    top: 7465px;
+    left: 760px;
+    font-size: 18px;
+}
+.angleranglerangler {
+    color: red;
+    font-family: 'archivo black', sans-serif;
+    top: 7557px;
+    left: 765px;
+    position: absolute;
+    font-size: 25px;
+}
+.angleranglerangler2 {
+    color: red;
+    font-family: 'archivo black', sans-serif;
+    top: 7656px;
+    left: 765px;
+    position: absolute;
+    font-size: 25px;
+}
+.anglerwinrate {
+    color: rgb(0, 0, 0);
+    font-family: 'archivo black', sans-serif;
+    top: 7775px;
+    left: 765px;
+    position: absolute;
+    font-size: 30px;
+
+}
+.shrimptitle {
+    position: absolute; 
+    top: 7880px;
+    left: 65px;
+    font-size: 35px;
+    color: rgb(233, 0, 0);
+}
+.shrimpimage {
+    position: absolute;
+    top: 7925px;
+    left: 745px;
+    width: 655px;
+     height: 380px; 
+     object-fit: cover;
+}
+.shrimptext {
+    position: absolute; 
+    top: 7970px;
+    left: 65px;
+    font-size: 18px;
+}
+.shrimpshrimpshrimp {
+    color: red;
+    font-family: 'archivo black', sans-serif;
+    top: 8135px;
+    left: 70px;
+    position: absolute;
+    font-size: 25px;
+}
+.shrimpimg{
+    position: absolute;
+    top: 8330px;
+    left: 65px;
+    width: 650px;
+     height: 385px; 
+     object-fit: cover;
+}
+.shrimpshrimpshrimp2 {
+    color: red;
+    font-family: 'archivo black', sans-serif;
+    top: 8335px;
+    left: 765px;
+    position: absolute;
+    font-size: 25px;
+}
+.shrimptext2 {
+    position: absolute; 
+    top: 8385px;
+    left: 765px;
+    font-size: 18px;
+}
+.shrimpwinrate {
+    color: rgb(0, 0, 0);
+    font-family: 'archivo black', sans-serif;
+    top: 8655px;
+    left: 770px;
+    position: absolute;
+    font-size: 30px;
+
+}
+.wormtitle {
+    position: absolute; 
+    top: 8750px;
+    left: 65px;
+    font-size: 35px;
+    color: rgb(233, 0, 0);
+}
+.wormimage {
+    position: absolute;
+    top: 8815px;
+    left: 745px;
+    width: 655px;
+     height: 455px; 
+     object-fit: cover;
+}
+.wormtext {
+    position: absolute; 
+    top: 8820px;
+    left: 65px;
+    font-size: 18px;
+}
+.wormwormworm {
+    color: red;
+    font-family: 'archivo black', sans-serif;
+    top: 8870px;
+    left: 70px;
+    position: absolute;
+    font-size: 25px;
+}
+.wormwormworm2 {
+    color: red;
+    font-family: 'archivo black', sans-serif;
+    top: 8960px;
+    left: 70px;
+    position: absolute;
+    font-size: 25px;
+}
+.wormwinrate {
+    color: rgb(0, 0, 0);
+    font-family: 'archivo black', sans-serif;
+    top: 9300px;
+    left: 70px;
+    position: absolute;
+    font-size: 30px;
+
+}
+.baristitle {
+    position: absolute; 
+    top: 9360px;
+    left: 65px;
+    font-size: 35px;
+    color: rgb(233, 0, 0);
+}
+.invoice-table {
+    position: absolute;
+    top: 10560px;
+    left: 210px;
+    width: 1000px;
+    height: 300px;
+}
+.barisimage {
+    position: absolute;
+    top: 9415px;
+    left: 745px;
+    width: 655px;
+     height: 415px; 
+     object-fit: cover;
+}
+.baristext {
+    position: absolute; 
+    top: 9430px;
+    left: 65px;
+    font-size: 18px;
+}
+.barisbarisbaris {
+    color: red;
+    font-family: 'archivo black', sans-serif;
+    top: 9570px;
+    left: 70px;
+    position: absolute;
+    font-size: 25px;
+}
+.barisimg {
+    position: absolute;
+    top: 9875px;
+    left: 65px;
+    width: 655px;
+     height: 475px; 
+     object-fit: cover;
+}
+.barisbarisbaris2 {
+    color: red;
+    font-family: 'archivo black', sans-serif;
+    top: 9885px;
+    left: 765px;
+    position: absolute;
+    font-size: 25px;
+}
+.baristext2 {
+    position: absolute; 
+    top: 9930px;
+    left: 770px;
+    font-size: 18px;
+}
+.bariswinrate {
+    color: rgb(0, 0, 0);
+    font-family: 'archivo black', sans-serif;
+    top: 10300px;
+    left: 775px;
+    position: absolute;
+    font-size: 30px;
+}
+.summary {
+    position: absolute; 
+    top: 10450px;
+    left: 460px;
+    font-size: 70px;
+    color: rgb(233, 0, 0);
+}
+.copyright {
+    position: absolute;
+    top: 10920px;
+    font-size: 10px;
+    left: 500px;
+    font-family: 'roboto', sans-serif;
+}

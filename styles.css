@@ -1,0 +1,285 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+
+}
+header {
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    text-align: center;
+    display: inline-block;
+    position: fixed;
+    z-index: 5;
+}
+.frank {
+    position: absolute;
+    left: 150px;
+    height: 100px;
+    top: 10px;
+    position: fixed;
+}
+.frankimg {
+    position: absolute;
+    height: 100px;
+    top: 11px;
+    left: 30px;
+    position: fixed;
+}
+.line {
+    position: absolute;
+    height: 50px;
+    top: 35px;
+    left: 100px;
+    rotate: 90deg;
+    position: fixed;
+}
+.cheese {
+    position: absolute;
+    z-index: 10;
+    color: rgb(85, 85, 85);
+    font-size: 30px;
+    top: 40px;
+    left: 350px;
+    position: fixed;
+    
+    text-decoration: none;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.cheese:hover {
+    color: rgb(122, 122, 122);
+}
+
+ 
+  .dropbtn {
+    background-color: #000000;
+    color:  rgb(180, 180, 180);
+    position: fixed;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  .dropdown {
+    position: absolute;
+    display: inline-block;
+    top: 40px;
+    z-index: 10;
+    left: 500px;
+    position: fixed;
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 38px;
+    
+  }
+  
+ 
+  .dropdown-content a {
+    color: rgb(180, 180, 180);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+ 
+  .dropdown-content a:hover {background-color: rgb(48, 48, 48)}
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  
+  .dropdown:hover .dropbtn {
+    color: rgb(227, 227, 227);
+  }
+.merch {
+    position: absolute; 
+    z-index: 9;
+    color:  rgb(180, 180, 180);
+    top: 40px;
+    left: 650px;
+    position: fixed;
+}
+.merch a:hover {color: rgb(227, 227, 227);}
+.info {
+    position: absolute; 
+    z-index: 9;
+    color:  rgb(180, 180, 180);
+    top: 40px;
+    left: 885px;
+    position: fixed;
+}
+.info a:hover {color: rgb(227, 227, 227);}
+  
+.support {
+    position: absolute; 
+    z-index: 9;
+    color:  rgb(180, 180, 180);
+    top: 40px;
+    left: 1000px;
+    position: fixed;
+}
+.support a:hover {color: rgb(227, 227, 227);}
+
+  
+form {
+    background-color: white;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute; 
+    z-index: 6;
+    top: 41px;
+    right: 75px
+    
+  }
+  input {
+    all: unset;
+    font: 16px system-ui;
+    color: black;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+    position: fixed;
+  }
+  ::placeholder {
+    color: blackf;
+    opacity: 0.7; 
+  }
+  .form {
+    position: fixed;
+  }
+  .magnifying {
+    z-index: 500;
+    height: 20px;
+    left: 1377px;
+    top: 46px;
+    
+    position: fixed;
+  }
+.frankincorperated {
+    top: 340px;
+    position: absolute;
+    left: 75px;
+    z-index: 5;
+}
+.awdw {
+    position: absolute;
+    height: 150px;
+    top: 170px;
+    left: 75px;
+}
+.doors {
+    height: 350px;
+    position: absolute;
+    top: 110px;
+    right: 100px;
+}
+.archivo {
+ position: absolute; 
+ top: 475px;
+ font-size: 30px;
+ left: 1000px;
+}
+.line2 {
+    position: absolute; 
+    top: 477px;
+    right: 338px;
+}
+.whatis {
+    position: absolute; 
+    font-size: 24px;
+    top: 550px;
+    right: 73px;
+    text-align:center;
+}
+.rectangle {
+    width: 750px;
+    height: 328px;
+    background-color: white;
+    position: absolute;
+    border-radius: 2;
+    border-color: #000000;
+    border: 4px solid black;
+    top: 500px;
+    left: 50px;
+    }
+    .rectangle2 {
+        width: 180px;
+        height: 75px;
+        background-color: white;
+        position: absolute;
+        
+        top: 465px;
+        left: 150px;
+        }
+     .featured {
+        position: absolute;
+        top: 480px;
+        left: 170px;
+        }
+.top10could {
+    position: absolute;
+    height: 260px;
+    top: 535px;
+    left: 90px
+}
+.top10couldnt {
+    position: absolute;
+    height: 260px;
+    top: 535px;
+    left: 444px;
+}
+.fighttext {
+    position: absolute;
+    top: 736px;
+    font-size: 18px;
+    left: 120px;
+}
+.losetext {
+    position: absolute;
+    top: 739px;
+    font-size: 16px;
+    left: 462px;
+}
+.fighttext:hover {
+    text-decoration: underline;
+}
+.losetext:hover {
+    text-decoration: underline;
+}
+.red {
+    color: red ;
+}
+.copyright {
+    position: absolute;
+    top: 930px;
+    font-size: 10px;
+    left: 500px;
+    font-family: 'roboto', sans-serif;
+}
+.rectangle3 {
+    width: 180px;
+    height: 75px;
+    background-color: white;
+    position: absolute;
+    
+    top: 870px;
+    
+    }

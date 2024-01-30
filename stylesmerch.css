@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+
+}
+.coolcroc {
+    position: absolute; 
+    top: 70px;
+    left: 480px;
+   
+    height: 400px;
+}
+.lefrank {
+    position: absolute; 
+    height: 105px;
+    left: 350px;
+    top: 195px;
+}
+
+.submitted {
+    position: absolute;
+    font-family: 'Open sans', sans-serif;
+    left: 470px;
+    Top: 390px;
+    font-size: 15px;
+}
+.backtohome {
+    position: absolute;
+    left: 20px;
+    Top: 10px;
+    font-size: 15px;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.backtohome:hover {
+    color: rgb(87, 87, 87);
+}
+
